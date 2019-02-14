@@ -8,8 +8,6 @@
                 <canvasZone></canvasZone>
             </div>
         </div>
-
-
     </div>
 </template>
 
