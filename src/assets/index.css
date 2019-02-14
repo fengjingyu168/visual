@@ -1,0 +1,318 @@
+/*.login {*/
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    /*background-image: url('../assets/bg_login.jpg');*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+/*}*/
+.right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    bottom: 0;
+    transition:width 0.3s ease-out;
+    -webkit-transition:width 0.3s ease-out;
+    -moz-transition:width 0.3s ease-out;
+    -o-transition:width 0.3s ease-out;
+}
+
+.rightmask{
+    overflow: hidden;
+    z-index: 0;
+    background-color: #000;
+    /* filter:progid:DXImageTransform.Microsoft.Alpha(opacity=20); */
+    opacity: 0.20;
+}
+
+.aside{
+    z-index: 1;
+}
+
+.loginform{
+    position: relative;
+    top: 50%;
+    margin: -180px auto;
+    width: 100%;
+    height: 440px;
+    text-align: center;
+}
+
+.tip{
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.welcome{
+    font-size: 32px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.accountblock{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 60%;
+    height: 38px;
+    background-color: #fff;
+    position: relative;
+    border: #f1f1f1 solid 1px;
+}
+.accountblock input {
+    outline:none
+}
+.indexborder-radius{
+	border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.passblock{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 60%;
+    height: 38px;
+    background-color: #fff;
+    position: relative;
+    border: #f1f1f1 solid 1px;
+}
+
+.passblock  input {
+    outline:none
+}
+
+@media screen and (max-width: 1450px) {
+    .right{
+        width: 440px;
+    }
+}
+
+.accountText{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    padding-left: 0;
+    margin-top: 9px;
+    font-size: 15px;
+    width: 70%;
+    border: none;
+    height: 20px;
+}
+
+.passText{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    padding-left: 0;
+    margin-top: 9px;
+    font-size: 15px;
+    width: 70%;
+    border: none;
+    height: 20px;
+}
+
+.label{
+    position: relative;
+    height: 29px;
+    width: 30px;
+    float: left;
+    line-height: 29px;
+}
+
+.label img{
+    margin-top: 9px;
+}
+
+.rememberpass{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+#rempasscheck{
+    position: relative;
+    margin-top: 6px;
+    float: left;
+}
+
+.remlabel{
+    position: relative;
+    float: left;
+    margin-top: 6px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.tiplabel{
+    position: relative;
+    float: right;
+    margin-top: 5px;
+    margin-right: 0;
+    font-size: 13px;
+}
+
+.loginbtn{
+    position: relative;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    top: 20px;
+    height: 38px;
+    width: 60%;
+    background-color: #0268b3;
+    font-size: 16px;
+    border:none;
+    cursor:pointer;
+}
+
+.problemlabel{
+    position: relative;
+    top: 30px;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: left;
+    width: 60%;
+}
+
+a{
+    text-decoration:none;
+    text-decoration-color: #0268b3;
+}
+
+.bottomview{
+    visibility:hidden;
+}
+
+.whiteline{
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    width: 85%;
+    height: 1px;
+    background-color: #cccccc;
+    opacity: 0.4;
+    /* filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40); */
+}
+
+.failedTitle{
+    position: relative;
+    clear: both;
+    float: left;
+    top: 65px;
+    margin-left: 9%;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.failedDetail{
+    position: relative;
+    clear: both;
+    float: left;
+    top: 70px;
+    margin: 0 auto;
+    width: 82%;
+    margin-left: 9%;
+    text-align: left;
+    text-indent:2em;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.faillogintip{
+    position: relative;
+    clear: both;
+    top: 90px;
+    margin: 0 auto;
+    width: 80%;
+    height: 162px;
+    background-position: top;
+    background-color: #fff;
+    border: #f1f1f1 1px solid;
+    opacity: 0.6;
+    /* filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); */
+}
+
+.angle{
+    position: relative;
+    clear: both;
+    top: -7px;
+    margin-left: 13%;
+    /* background-image: url("../image/others/angle.png"); */
+    width: 12px;
+    height: 7px;
+    opacity: 0.8;
+    /* filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80); */
+}
+
+.faillogincontent{
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 100%;
+}
+
+.faillogincontent a{
+    font-size: 16px;
+    clear: both;
+    float: left;
+    margin-left: 10px;
+    text-align: left;
+    text-decoration-style: none;
+}
+
+.faillogincontent p{
+    font-size: 14px;
+    clear: both;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    text-decoration-style: none;
+    text-indent:2em;
+    display: block;
+}
+
+#searchBackTitle{
+    position: relative;
+    display: block;
+}
+
+#searchBackDetail{
+    position: relative;
+    display: block;
+}
+
+#feedBackTitle{
+    margin-top: 10px;
+    position: relative;
+    display: block;
+}
+
+#feedBackDetail{
+    position: relative;
+    display: block;
+}
+
+
+.whiteText{
+    color: #eee;
+    opacity: 0.9;
+    /* filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90); */
+}
+
+.blackText{
+    color: black;
+}
+
+.redText{
+    color: red;
+}
+
+.blueText{
+    color:#0268b3;
+}
+
+.blueText2{
+    color:#2db7f5;
+}
